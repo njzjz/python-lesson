@@ -1,2 +1,6 @@
-# Python课堂作业
-Python，我的必修课。这个项目用来放作业。
+# Python Lesson Homework
+A repository to retore my Python lesson homework. Some interesting scripts are also here.
+
+**Author**: Jinzhe Zeng
+
+**Email**: njzjz@qq.com 10154601140@stu.ecnu.edu.cn
