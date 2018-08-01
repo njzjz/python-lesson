@@ -1,8 +1,8 @@
 #作出20180801.txt的图像
 import numpy as np
-import matplotlib.pyplot as pl
+import matplotlib.pyplot as plt
 data=np.loadtxt("20180801.txt")
-pl.plot(data[:,0],data[:,1])
-pl.xlabel("Energy(eV)")
-pl.ylabel("DOS")
-pl.savefig("20180801.svg")
+plt.plot(data[:,0],data[:,1])
+plt.xlabel("Energy(eV)")
+plt.ylabel("DOS")
+plt.savefig("20180801.svg")
