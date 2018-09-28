@@ -3,4 +3,4 @@ A repository to restore my Python lesson homework. Some interesting scripts are 
 
 **Author**: Jinzhe Zeng
 
-**Email**: njzjz@qq.com 10154601140@stu.ecnu.edu.cn
+**Email**: jzzeng@stu.ecnu.edu.cn
