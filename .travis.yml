@@ -1,2 +1,12 @@
 language: python
-script: for f in $(ls Python_homework); do python Python_homework/${f}; done
+script:
+- python Python_homework/1.py
+- python Python_homework/2.py
+- echo 5 | python Python_homework/3-1.py
+- echo python | python Python_homework/3-2.py
+- python Python_homework/3-3.py
+- python Python_homework/3-4.py
+- python Python_homework/4-1.py
+- python Python_homework/4-2.py
+- python Python_homework/4-3.py
+- yes | python intersting_scripts/a_boring_game.py
