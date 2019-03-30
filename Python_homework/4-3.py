@@ -4,7 +4,7 @@
 #  31  37  41  43  47
 #  53  59  61  67  71
 #  73  79  83  89  97 
-from math import *
+from math import sqrt
 c=0
 for i in range(2,101):
     for j in range(2,int(sqrt(i))+1):
