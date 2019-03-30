@@ -25,7 +25,7 @@ elif IDnumber[0:17].isdigit() and (IDnumber[17].isdigit or IDnumber[17] == "X"):
             error = 1
         else:
             error = 0
-    elif IDmonth == 1 or IDmonth == 3 or IDmonth == 5 or IDmonth == 7 or IDmonth == 8 or IDmonth == 10 or IDmonth==12:
+    elif IDmonth == 1 or IDmonth == 3 or IDmonth == 5 or IDmonth == 7 or IDmonth == 8 or IDmonth == 10 or IDmonth == 12:
         if IDday > 31:
             error = 1
         else:
