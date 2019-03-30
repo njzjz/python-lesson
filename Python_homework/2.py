@@ -21,16 +21,16 @@ elif IDnumber[0:17].isdigit() and (IDnumber[17].isdigit or IDnumber[17] == "X"):
                 run = 1
         else:
             run = 0
-        if (run == 1 and IDday > 29)or(run == 0 and IDday>28):
+        if (run == 1 and IDday > 29)or(run == 0 and IDday > 28):
             error = 1
         else:
             error = 0
-    elif IDmonth == 1 or IDmonth == 3 or IDmonth == 5 or IDmonth==7 or IDmonth==8 or IDmonth==10 or IDmonth==12:
+    elif IDmonth == 1 or IDmonth == 3 or IDmonth == 5 or IDmonth == 7 or IDmonth == 8 or IDmonth == 10 or IDmonth==12:
         if IDday > 31:
             error = 1
         else:
             error = 0
-    elif IDmonth == 4 or IDmonth == 6 or IDmonth == 9 or IDmonth==11:
+    elif IDmonth == 4 or IDmonth == 6 or IDmonth == 9 or IDmonth == 11:
         if IDday > 30:
             error = 1
         else:
@@ -51,7 +51,8 @@ elif IDnumber[0:17].isdigit() and (IDnumber[17].isdigit or IDnumber[17] == "X"):
         if err == 1:
             print("Error! You haven't been born, have you?")
         else:
-            print("Your date of birth is ", IDyear, "/", IDmonth, "/", IDday, ".")
+            print("Your date of birth is ", IDyear,
+                  "/", IDmonth, "/", IDday, ".")
             if IDsex % 2 == 0:
                 print("Your gender is female.")
             else:

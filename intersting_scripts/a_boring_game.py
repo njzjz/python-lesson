@@ -16,7 +16,7 @@ def printmap():
             n[i] = "A"
         elif i == x2:
             n[i] = "B"
-        elif i == 5 or i == 15 or i == 25 or i==35 or i==45:
+        elif i == 5 or i == 15 or i == 25 or i == 35 or i == 45:
             n[i] = "R"
         else:
             n[i] = "#"
@@ -42,7 +42,7 @@ while x1 < 50 and x2 < 50:
     input("轮到你掷点，按回车键掷出点数！")
     y1 = random.randint(1, 6)
     x1 += y1
-    if x1 == 5 or x1 == 15 or x1 == 25 or x1==35 or x1==45:
+    if x1 == 5 or x1 == 15 or x1 == 25 or x1 == 35 or x1 == 45:
         r = random.randint(1, 6)
         if r == 1:
             x1 -= 4
@@ -72,7 +72,7 @@ while x1 < 50 and x2 < 50:
         input("轮到玩家B掷点，请按回车键确认！")
         y2 = random.randint(1, 6)
         x2 += y2
-        if x2 == 5 or x2 == 15 or x2 == 25 or x2==35 or x2==45:
+        if x2 == 5 or x2 == 15 or x2 == 25 or x2 == 35 or x2 == 45:
             r = random.randint(1, 6)
             if r == 1:
                 x2 -= 4
