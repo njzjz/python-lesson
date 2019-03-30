@@ -1,0 +1,2 @@
+language: python
+script: for f in $(ls Python_homework); do python Python_homework/${f}; done
