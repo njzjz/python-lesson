@@ -10,10 +10,14 @@ y2=0
 def printmap():
     print("\n"*25)
     for i in range(1,50):
-        if i==x1:n[i]="A"
-        elif i==x2:n[i]="B"
-        elif i==5 or i==15 or i==25 or i==35 or i==45:n[i]="R"
-        else:n[i]="#"
+        if i==x1:
+            n[i]="A"
+        elif i==x2:
+            n[i]="B"
+        elif i==5 or i==15 or i==25 or i==35 or i==45:
+            n[i]="R"
+        else:
+            n[i]="#"
     for i in range(1,12):
         print(n[i],end="")
     print("")
@@ -29,7 +33,8 @@ def printmap():
     print("")
 while x1<50 and x2<50:
     printmap()
-    if not y2==0:print("玩家B掷出了点数",y2,z2)
+    if y2!=0:
+        print("玩家B掷出了点数",y2,z2)
     input("轮到你掷点，按回车键掷出点数！")
     y1=random.randint(1,6)
     x1+=y1
@@ -55,7 +60,8 @@ while x1<50 and x2<50:
             x1=x2
             x2=c
             z1="，$%^&*$##%，和玩家B互换位置！"
-    else:z1="，前进"+str(y1)+"步。"
+    else:
+        z1="，前进"+str(y1)+"步。"
     if x1<50 and x2<50:
         printmap()
         print("玩家A掷出了点数",y1,z1)
@@ -84,7 +90,8 @@ while x1<50 and x2<50:
                 x2=x1
                 x1=c
                 z2="，$%^&*$##%，和玩家B互换位置！"
-        else:z2="，前进"+str(y2)+"步。"
+        else:
+            z2="，前进"+str(y2)+"步。"
 else:
     if x1>50:
         x1=50
