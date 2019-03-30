@@ -1,8 +1,8 @@
 language: python
-python: 3.5
+python: 3.6
 script:
 - python Python_homework/1.py
-- python Python_homework/2.py
+- echo 445224199101073030 | python Python_homework/2.py
 - echo 5 | python Python_homework/3-1.py
 - echo python | python Python_homework/3-2.py
 - python Python_homework/3-3.py
