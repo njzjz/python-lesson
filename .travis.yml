@@ -1,4 +1,5 @@
 language: python
+python: 3.5
 script:
 - python Python_homework/1.py
 - python Python_homework/2.py
